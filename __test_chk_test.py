@@ -4,6 +4,7 @@ from pymongo import MongoClient
 import module_chk
 import module_pickup
 
+
 ko = Komoran()
 
 client = MongoClient("mongodb://192.168.1.56:27017/")
