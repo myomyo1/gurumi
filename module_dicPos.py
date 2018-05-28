@@ -1,6 +1,6 @@
 from konlpy.tag import Komoran
 ko = Komoran()
-userdic = ["강추","기대","노잼","봉준호감독님"]
+userdic = ["강추","기대","노잼","지루해"]
 # userdic = []
 
 def dicPos(string) :

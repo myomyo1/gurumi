@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="661f05fc-be42-4665-88e1-7d945e6ef8d7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module_dicPos.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module_makeWord.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/__test_chk_test.py" afterPath="$PROJECT_DIR$/__test_chk_test.py" />
-      <change beforePath="$PROJECT_DIR$/__test_chk_test1.py" afterPath="$PROJECT_DIR$/__test_chk_test1.py" />
       <change beforePath="$PROJECT_DIR$/__test_copy.py" afterPath="$PROJECT_DIR$/__test_copy.py" />
-      <change beforePath="$PROJECT_DIR$/__test_json_load.py" afterPath="$PROJECT_DIR$/autoPrg_reviewJsonLoader.py" />
-      <change beforePath="$PROJECT_DIR$/module_chk.py" afterPath="$PROJECT_DIR$/module_chk.py" />
-      <change beforePath="$PROJECT_DIR$/module_pickup.py" afterPath="$PROJECT_DIR$/module_pickup.py" />
+      <change beforePath="$PROJECT_DIR$/autoPrg_reviewJsonLoader.py" afterPath="$PROJECT_DIR$/autoPrg_reviewJsonLoader.py" />
+      <change beforePath="$PROJECT_DIR$/module_dicPos.py" afterPath="$PROJECT_DIR$/module_dicPos.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="autoPrg_reviewJsonLoader.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="autoPrg_reviewJsonLoader.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/autoPrg_reviewJsonLoader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="551">
+              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -35,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module_dicPos.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="module_dicPos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module_dicPos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="38">
+              <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -48,8 +41,8 @@
       <file leaf-file-name="__test_copy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__test_copy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="722">
+              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding>
                 <element signature="e#278#300#0" expanded="true" />
               </folding>
@@ -179,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test_I_1" />
         <option value="$PROJECT_DIR$/Naver_Movie_std.py" />
         <option value="$PROJECT_DIR$/autoPrg_NaverMovieStd.py" />
         <option value="$PROJECT_DIR$/__test1_pymongo.py" />
@@ -227,9 +219,10 @@
         <option value="$PROJECT_DIR$/module_makeWord.py" />
         <option value="$PROJECT_DIR$/module_pickup.py" />
         <option value="$PROJECT_DIR$/module_chk.py" />
-        <option value="$PROJECT_DIR$/__test_copy.py" />
         <option value="$PROJECT_DIR$/__test_json_load.py" />
+        <option value="$PROJECT_DIR$/autoPrg_reviewJsonLoader.py" />
         <option value="$PROJECT_DIR$/module_dicPos.py" />
+        <option value="$PROJECT_DIR$/__test_copy.py" />
       </list>
     </option>
   </component>
@@ -295,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__test_json_load">
+  <component name="RunManager" selected="Python.__test_copy">
     <configuration name="Def_making_final_final" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,8 +407,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.__test_json_load" />
-        <item index="1" class="java.lang.String" itemvalue="Python.__test_copy" />
+        <item index="0" class="java.lang.String" itemvalue="Python.__test_copy" />
+        <item index="1" class="java.lang.String" itemvalue="Python.__test_json_load" />
         <item index="2" class="java.lang.String" itemvalue="Python.__test_chk_test" />
         <item index="3" class="java.lang.String" itemvalue="Python.module_pickup" />
         <item index="4" class="java.lang.String" itemvalue="Python.Def_making_final_final" />
@@ -436,6 +429,14 @@
       <option name="presentableId" value="Default" />
       <updated>1523585948061</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat : user dictionary / va changer&#10;&#10;1. 사용자 사전 추가&#10;2. VA로 끝나는 조합 명사형으로 변형">
+      <created>1527490656681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527490656682</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -462,6 +463,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat : user dictionary / va changer&#10;&#10;1. 사용자 사전 추가&#10;2. VA로 끝나는 조합 명사형으로 변형" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : user dictionary / va changer&#10;&#10;1. 사용자 사전 추가&#10;2. VA로 끝나는 조합 명사형으로 변형" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -849,29 +854,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/__test_copy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="722">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding>
             <element signature="e#278#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoPrg_reviewJsonLoader.py">
+    <entry file="file://$PROJECT_DIR$/module_dicPos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_dicPos.py">
+    <entry file="file://$PROJECT_DIR$/autoPrg_reviewJsonLoader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="551">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -16,7 +16,7 @@ with open('C:/MONGODB/BAK/JSON_BAK/review_0510.json', encoding='UTF8') as data_f
     for a in data_file :
         data = json.loads(a)
         wordlist = module_dicPos.dicPos(data["review_contents"])
-        wordlist = ko.pos(data["review_contents"])
+        # wordlist = ko.pos(data["review_contents"])
         ##단순반복 제거
         i = 3
         while i < len(wordlist):

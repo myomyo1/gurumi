@@ -28,7 +28,7 @@ review = [('스포츠', 'NNG'),('슬프', 'VA')]
 
 # print(Def_making_final_final.fml("안녕하세요"))
 print(module_makeWord.wordMakingFunction(review))
-str = "기대했는데 노잼이네요 완전강추강추에요"
+str = "크리스티나"
 print("안녕" in str)
 
 if "안녕" in str :
