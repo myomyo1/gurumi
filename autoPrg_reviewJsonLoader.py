@@ -7,15 +7,41 @@ import module_dicPos
 client = MongoClient("mongodb://192.168.1.56:27017/")
 db_ttolae = client.TTOLAE
 collection_review = db_ttolae.test_review
+collection_movie_info = db_ttolae.movie_info
 
 ko = Komoran()
-
-with open('C:/MONGODB/BAK/JSON_BAK/review_0510.json', encoding='UTF8') as data_file :
+movieId = None
+with open('C:/MONGODB/BAK/JSON_BAK/naver_review_linked_0531.json', encoding='UTF8') as data_file :
 # with open('C:/MONGODB/BAK/JSON_BAK/cgv_movie_info_0502.json', "r", encoding='UTF8') as data_file :
     i = 0
+    ttolaeDic = module_dicPos.TTOLAEDic()
     for a in data_file :
         data = json.loads(a)
-        wordlist = module_dicPos.dicPos(data["review_contents"])
+        if movieId == None or str(data["movie_id"]) !=  movieId :
+            movieId = str(data["_id"]["movie_ref"]["$id"])
+            movieInfo = collection_movie_info.find_one({'_id': movieId})
+            print(movieInfo)
+            addList = []
+            addList.append(movieInfo['inte_title'])
+            addList.append(movieInfo['director'])
+            try:
+                addList += [element['person_name']for element in movieInfo['person']]
+            except KeyError as e :
+                print("person 없음",e)
+
+            try:
+                addList += [element['part'] for element in movieInfo['person'] if element['part'] !=' ' ]
+            except KeyError as e:
+                print("part 없음", e)
+
+            print(addList)
+            ttolaeDic.resetDic()
+            ttolaeDic.addDicList(addList)
+            print(ttolaeDic.userDic)
+
+        wordlist = ttolaeDic.dicPos(data["review_contents"])
+        data["user_grade"] = int(data["user_grade"])
+        data["movie_id"] = str(data["movie_id"])
         # wordlist = ko.pos(data["review_contents"])
         ##단순반복 제거
         i = 3
@@ -41,7 +67,7 @@ with open('C:/MONGODB/BAK/JSON_BAK/review_0510.json', encoding='UTF8') as data_f
         data.update(gurumi_word)
         print(data)
         # print(final_list)
-        collection_review.save(data)
+        # collection_review.save(data)
 
         i = i+1
         print(i)
